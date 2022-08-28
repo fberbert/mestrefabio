@@ -1,0 +1,29 @@
+.socialbar-container {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid orange; */
+  height: 30px;
+  margin-right: 30px;
+  margin-bottom: 8px;
+}
+
+.socialbar {
+  margin: 0; padding: 0;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+.socialbar li {
+  display: inline;
+  white-space: nowrap;
+}
+
+.socialbar a {
+  color: #eee;
+  font-size: 26px;
+  margin-right: 2px;
+}
+
+.socialbar a:last-child {
+  margin-right: 0px;
+}

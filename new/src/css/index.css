@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  width: 90%;
+  margin: auto;
+}
+
+.main-container h1 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #bcbcbc;
+}
+
+/* GLOBAL A HREF */
+a, a:hover {
+  color: #008813;
+  font-weight: 600;
+}
+
+/* BREADCRUMBS ------------------------------ */
+.breadcrumbs {
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+  /* padding: 0; */
+  /* margin: 0; */
+  justify-content: right;
+  margin-bottom: 10px;
+}
+
+.breadcrumbs > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs > ul > li {
+  /* border-bottom: 1px solid #008813; */
+}
+
+.breadcrumbs > ul > li:last-child {
+  /* padding-right: 20px; */
+}
+
+.breadcrumb-item {
+  font-size: 16px;
+}
+
+.breadcrumb-item > a {
+  text-decoration: none;
+  color: #008813;
+}
+
+.headline {
+  border-left: 6px solid #008813;
+  margin-bottom: 30px;
+}
+
+.headline h2 {
+  font-size: 26px !important;
+  border-bottom: 1px solid #c1c1c1;
+  padding: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #bcbcbc;
+}

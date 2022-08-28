@@ -1,0 +1,21 @@
+.footer {
+  padding: 40px;
+  width: 100%;
+  background-color: rgb(39, 39, 39);
+  color: whitesmoke;
+  margin-top: 50px;
+}
+
+.footer-links > ul > li {
+  background: none;
+  border: 1px solid #555;
+}
+
+.footer-links > ul > li > a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footer-links > ul > li > a:hover {
+  color: #dedede;
+}

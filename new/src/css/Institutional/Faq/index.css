@@ -1,0 +1,30 @@
+.faq-perguntas {
+  margin-bottom: 30px;
+}
+
+.card {
+  /* margin-bottom: 10px; */
+}
+
+.headline > h2 {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.card-header {
+  background-color: #f1f1f1;
+  /* padding: 20px; */
+  /* opacity: 0.7; */
+  color: black;
+}
+
+.card-header > h4 {
+  font-size: 18px;
+  padding: 10px 0;
+  font-weight: normal;
+}
+
+.card-body > a {
+  color: #008813;
+  font-weight: 600;
+}

@@ -1,0 +1,54 @@
+/* --------------------------------------------- */
+/* MENU PRINCIPAL */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+.navbar-container {
+  height: 100%;
+}
+
+.menu-container {
+  /* border: 1px solid black; */
+  padding: 0;
+  height: 100%;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.main-menu-ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main-menu-ul li {
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  justify-content: center;
+  margin-right: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+}
+
+.main-menu-ul li:last-child {
+  margin-right: 0;
+}
+
+
+.main-menu-ul li a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+}
+
+.main-menu-ul li:hover {
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* --------------------------------------------- */
